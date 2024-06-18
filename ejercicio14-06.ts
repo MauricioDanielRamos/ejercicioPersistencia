@@ -16,8 +16,12 @@ fs.writeFileSync(`./precios.txt`, contenidoStringPrecios);
 let datosLeidosPrecios: string = fs.readFileSync(`./precios.txt`, `utf-8`);
 let datos1: string = datosLeidosPrecios.trim();
 let nuevoArrayPrecios: string[] = datos1.split(` `);
+parseInt(contenidoStringPrecios);
 
-//console.log(contenidoStringPrecios);
+
+
+
+console.log(contenidoStringPrecios);
 //console.log(precios);
 console.log(nuevoArrayPrecios);
 //console.log(contenidoString);
